@@ -1,5 +1,5 @@
 name: compass-compile
-version: 0.0.1
+version: 0.0.2
 description: Compile all compass project into a css
 keywords:
   - compass

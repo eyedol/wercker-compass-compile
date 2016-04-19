@@ -19,7 +19,7 @@ fi
 
 # check to make sure sass is installed and then run the compile
 if type compass > /dev/null 2>&1; then
-    compass compile --config $WERCKER_COMPASS_COMPILE_CONFIG-FILE $WERCKER_COMPASS_COMPILE_FLAGS
+    compass compile --config $WERCKER_COMPASS_COMPILE_CONFIG_FILE $WERCKER_COMPASS_COMPILE_FLAGS
 else
     fail 'compass command failed, compass is not a recognised command'
 fi
