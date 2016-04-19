@@ -10,12 +10,7 @@ properties:
   config-file:
     type: string
     required: true
-  source-dir:
+  flags:
     type: string
-    default: none
-  output-dir:
-    type: string
-    default: none
-  output-style:
-    type: string
-    default: compressed
+    default: ""
+    required: false
