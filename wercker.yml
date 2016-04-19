@@ -1,0 +1,14 @@
+---
+box: debian
+build:
+    steps:
+    - install-packages:
+        packages: 
+          build-essential
+          ruby
+          rubygems
+          ruby-dev
+    - script:
+        name: Install compass
+        code: |
+          gem install compass
