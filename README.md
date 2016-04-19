@@ -1,5 +1,7 @@
 # compass-compile
 
+[![wercker status](https://app.wercker.com/status/d0311312ac58f801bdfaa4a9a954e908/m "wercker status")](https://app.wercker.com/project/bykey/d0311312ac58f801bdfaa4a9a954e908)
+
 Compile all compass project files into CSS files
 
 ## Options
