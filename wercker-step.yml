@@ -1,0 +1,21 @@
+name: compass-compile
+version: 0.0.1
+description: Compile all compass project into a css
+keywords:
+  - compass
+  - css
+  - sass
+  - stylesheet
+properties:
+  config-file:
+    type: string
+    required: true
+  source-dir:
+    type: string
+    default: none
+  output-dir:
+    type: string
+    default: none
+  output-style:
+    type: string
+    default: compressed
