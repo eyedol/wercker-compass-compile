@@ -11,4 +11,4 @@ build:
     - script:
         name: Install compass
         code: |
-          gem install compass
+          sudo gem install compass
